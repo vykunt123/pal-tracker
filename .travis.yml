@@ -32,8 +32,8 @@ jobs:
         - echo "Deploying $RELEASE_TAG to Cloud Foundry"
       deploy:
         provider: cloudfoundry
-        api: $CF_API_URL
-        username: $CF_USERNAME
-        password: $CF_PASSWORD
-        organization: $CF_ORG
+        api: https://api.run.pivotal.io
+        username: vtkuntharao.bevara@wipro.com
+        password: Mohit@19
+        organization: vykunt.org
         space: $CF_SPACE
